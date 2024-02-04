@@ -1,0 +1,67 @@
+html, body {
+    max-height: 100vh; 
+    overflow-y: clip; 
+
+}
+
+body {
+    max-height: 100vh; 
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Verdana, sans-serif; 
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #fc5da7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    
+    
+}
+.content-container {
+    position:relative; 
+    z-index: 1; 
+
+}
+video {
+    width: 35%; 
+    height: auto; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;}
+
+h1 {
+    color: #ff83b2;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    border-color: #f59fc3;
+    background-color: #ffb9b9; 
+    color:#ffffff; 
+
+}
+
+#thankYouPage {
+    text-align: center;
+}
+
+#thankYouPage h1 {
+    color:#ff83b2;
+}
